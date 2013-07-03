@@ -10,7 +10,7 @@ end
 
 # Use postgresql in production for Heroku
 group :production do
-  gem 'pg'
+  gem 'pg', '~> 0.15.1'
 end
 
 group :asset do
